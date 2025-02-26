@@ -1,3 +1,7 @@
+## 0.1.3 by Peschi90
+- a few little GUI fixes
+  - Discord Button for Peschi90 adjusted
+
 ## 0.1.2 by Peschi90
 - a few little GUI fixes
   - Discord Button for Peschi90 adjusted
