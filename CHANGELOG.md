@@ -1,6 +1,12 @@
 ## 0.1.1 by Peschi90
 - a few little GUI fixes
+  - Discord Button for Peschi90 adjusted
+  - increased Window size for about page
+- changed install.sh Repo to peschi.org
 
+
+## 0.1.1 by Peschi90
+- a few little GUI fixes
 
 ## 0.1.0 by Peschi90
 
