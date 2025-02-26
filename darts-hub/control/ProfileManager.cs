@@ -949,6 +949,21 @@ namespace darts_hub.control
                 }
             }
 
+            var dartsWled = AppsDownloadable.Find(a => a.Name == "darts-wled");
+            if (dartsWled != null)
+            {
+                if (dartsWledDownloadUrl != null)
+                {
+                    dartsWled.DownloadUrl = dartsWledDownloadUrl;
+
+                    var boardStopAfterWin = dartsWled.Configuration.Arguments.Find(a => a.Name == "BSW");
+                    if (boardStopAfterWin == null)
+                    {
+                        dartsCaller.Configuration.Arguments.Add(new(name: "BSW", type: "bool", required: false, nameHuman: "-BSW / --board_stop_after_win", section: "Autodarts", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" }));
+                    }
+                }
+            }
+
 
             // Add more migs..
         }
