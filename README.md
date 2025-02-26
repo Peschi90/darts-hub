@@ -9,8 +9,8 @@ Unfortunately I was not able to reach Wusaaa and ask for permission directly, I 
 The current status is: 
  - Darts-Caller is used from lbormann/wusaaa repo and has not been touched yet
  - Darts-Wled has been switched to my repo
-  -- BSW Board Stop after Finisch parameter added and made configurable
-  -- Standard Board Stop after win switched off. Can be switched on via WLED settings --BSW 0 or 1
+  - - BSW Board Stop after Finisch parameter added and made configurable
+  - - Standard Board Stop after win switched off. Can be switched on via WLED settings --BSW 0 or 1
 
 
 
