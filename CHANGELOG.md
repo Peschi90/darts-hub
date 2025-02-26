@@ -1,3 +1,9 @@
+## 0.0.3b11
+
+- Implement autoupdate of WLED
+- Migration for BSW parameter
+- 
+
 ## 0.0.3b8
 
 - Syntax error bug fix
