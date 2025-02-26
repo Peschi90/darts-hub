@@ -14,7 +14,24 @@ The current status is:
 - all other Darts-xxx are used from lbormann  
 
 
+## How to install this Fork
+ ### Single-Command (Linux, MacOS)
+ 
+ You can install darts-hub on a Linux system by using this single command.
+ It will automatically download the latest version and configures it for autostart.
+ You might have to install `curl` on your machine beforehand.
+ You can do so with `sudo apt install curl`.
+ 
+ ```bash
+ bash <(curl -sL darts-hub.get.peschi.org)
+ ```
 
+
+</br></br></br></br>
+
+# ---------Original Information---------
+
+</br>
 
 
 # DARTS-HUB
