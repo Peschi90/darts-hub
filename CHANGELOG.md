@@ -1,14 +1,25 @@
-## 0.0.3b11
+## 0.1.0 by Peschi90
+
+- implemented Iformation about main developer
+- edit information in about page
+- Darts-Caller will be used out of standard lbormann Repo
+- Darts-WLED will be used out of Peschi90 Repo
+-
+- To Update Darts-WLED please remove the darts-hub file out of the darts-hub
+  subfolder. Darts-Hub will load the new version out of Peschi90´s Repo
+
+
+## 0.0.3b11 by Peschi90
 
 - Implement autoupdate of WLED
 - Migration for BSW parameter
 - 
 
-## 0.0.3b8
+## 0.0.3b8 by Peschi90
 
 - Syntax error bug fix
 
-## 0.0.3b7
+## 0.0.3b7 by Peschi90
 
 - set different version because of fork from Peschi90
 - changed WLED repository to Peschi90 fork

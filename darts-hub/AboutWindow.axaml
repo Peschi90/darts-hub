@@ -35,6 +35,8 @@
 		
 		<Label Content="Inspired by:" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Foreground="White"/>
 		<Label Content="Reepa86" HorizontalAlignment="Left" Margin="23,223,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="White"/>
+		<Label Content="Extended by:" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Foreground="White"/>
+		<Label Content="Peschi90 / I3uLL3t" HorizontalAlignment="Left" Margin="23,306,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="White"/>
 		<Button ToolTip.Tip="Need help? or you want to contact the developers? Click here." 
 				x:Name="contact1" Background="Transparent" BorderThickness="0" Click="Button_Click" HorizontalAlignment="Left" 
 				Margin="110,219,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold">
