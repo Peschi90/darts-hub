@@ -1,3 +1,7 @@
+## 0.1.1 by Peschi90
+- a few little GUI fixes
+
+
 ## 0.1.0 by Peschi90
 
 - implemented Iformation about main developer

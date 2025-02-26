@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="520" d:DesignHeight="720" d:DesignMaxWidth="520" d:DesignMaxHeight="720"
         x:Class="darts_hub.MainWindow"
-        Title="Darts-Hub Peschi90 Fork original by Wusaaa/lbormann"
+        Title="Darts-Hub Fork by Peschi90"
 		Icon="/Assets/favicon.ico"
 		Width="520"
 		Height="720"
@@ -62,7 +62,7 @@
 						PointerPressed="WaitingText_PointerPressed"
 						IsVisible="False"/>
 			
-			<Label x:Name="OrgInfo" Content="This is a Fork of original darts-hub from wusaaa/lbormann" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.98,0.757" Foreground="Red"/>
+			<Label x:Name="OrgInfo" Content="This is a Fork of original darts-hub from Wusaaa/lbormann" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.98,0.757" Foreground="Red"/>
 		</Grid>
 
 	</ScrollViewer>
