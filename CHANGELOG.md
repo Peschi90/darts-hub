@@ -1,3 +1,6 @@
+## 0.1.4 by Peschi90
+- realease download bugfix
+
 ## 0.1.3 by Peschi90
 - a few little GUI fixes
   - Discord Button for Peschi90 adjusted
