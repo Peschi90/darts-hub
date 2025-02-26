@@ -1,3 +1,14 @@
+# DARTS-HUB Fork by Peschi90
+[![Downloads](https://img.shields.io/github/downloads/Peschi90/darts-hub/total.svg)](https://github.com/Peschi90/darts-hub/releases/latest)
+
+This is a Fork by Peschi90 aka I3uLL3t. 
+unfortunetly Wusaaa has no time anymore to develop it anymore. The Project is to good to let it die. 
+I starded to Fork this hub and want to extend it to newer Versions and bigger funcionality!
+
+
+
+
+
 # DARTS-HUB
 [![Downloads](https://img.shields.io/github/downloads/lbormann/darts-hub/total.svg)](https://github.com/lbormann/darts-hub/releases/latest)
 
