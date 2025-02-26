@@ -1,3 +1,11 @@
+## 0.0.3b7
+
+- set different version because of fork from Peschi90
+- changed WLED repository to Peschi90 fork
+- setup aditional -BSW Board Stop after Win setting for WLED and removed the automatic Board Stop
+
+
+
 ## 0.12.1
 
 - adapt app versions

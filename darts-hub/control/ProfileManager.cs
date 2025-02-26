@@ -684,6 +684,7 @@ namespace darts_hub.control
                         new(name: "PJ", type: "string", required: false, isMulti : true, nameHuman: "-PJ / --player_joined_effects", section: "WLED"),
                         new(name: "PL", type: "string", required: false, isMulti : true, nameHuman: "-PL / --player_left_effects", section: "WLED"),
                         new(name: "DEB", type: "bool", required: false, nameHuman: "-DEB / --debug", section: "Service", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" })
+                        new(name: "BSW", type: "bool", required: false, nameHuman: "-BSW / --board_stop_after_win", section: "Autodarts", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" })
 
                     };
                 for (int i = 0; i <= 180; i++)
