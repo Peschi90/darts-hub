@@ -1,3 +1,7 @@
+## 0.0.3b8
+
+- Syntax error bug fix
+
 ## 0.0.3b7
 
 - set different version because of fork from Peschi90
