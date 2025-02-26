@@ -62,7 +62,7 @@
 						PointerPressed="WaitingText_PointerPressed"
 						IsVisible="False"/>
 			
-			<Label x:Name="OrgInfo" Content="This is a Fork of original darts-hub from Wusaaa/lbormann" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.98,0.757" Foreground="Red"/>
+			<Label x:Name="OrgInfo" Content="This is a Fork of original darts-hub from Wusaaa/lbormann" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.98,0.757" Foreground="Red" FontWeight="Bold"/>
 		</Grid>
 
 	</ScrollViewer>

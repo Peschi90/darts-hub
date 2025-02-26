@@ -91,7 +91,7 @@ mkdir -p ~/darts-hub
 echo "Downloading and extracting 'darts-hub-${PLATFORM}-${ARCH}.zip' into '~/darts-hub'."  
 curl -sL https://github.com/Peschi90/darts-hub/releases/latest/download/darts-hub-${PLATFORM}-${ARCH}.zip -o darts-hub.zip && unzip -o darts-hub.zip -d ~/darts-hub && rm darts-hub.zip
 echo "Making ~/darts-hub/darts-hub executable."
-chmod +x ~/darts-hub/darts-hub
+chmod +x ~/darts-hub/darts-hub 
 echo "Starting darts-hub."
 ~/darts-hub/darts-hub &
 add_to_autostart
