@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="520" d:DesignHeight="720" d:DesignMaxWidth="520" d:DesignMaxHeight="720"
         x:Class="darts_hub.MainWindow"
-        Title="Darts-Hub"
+        Title="Darts-Hub Peschi90 Fork"
 		Icon="/Assets/favicon.ico"
 		Width="520"
 		Height="720"
