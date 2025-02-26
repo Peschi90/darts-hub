@@ -491,12 +491,12 @@ namespace darts_hub.control
 
             var dartsWledDownloadMap = new DownloadMap
             {
-                WindowsX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled.exe",
-                LinuxX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled",
-                LinuxArm64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-arm64",
+                WindowsX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled.exe",
+                LinuxX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled",
+                LinuxArm64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-arm64",
                 //LinuxArm = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-arm",
-                MacX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-mac",
-                MacArm64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-mac"
+                MacX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac",
+                MacArm64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac"
             };
             dartsWledDownloadUrl = dartsWledDownloadMap.GetDownloadUrlByOs("1.5.0");
 
@@ -702,9 +702,9 @@ namespace darts_hub.control
                 AppDownloadable dartsWled =
                 new(
                     downloadUrl: dartsWledDownloadUrl,
-                    changelogUrl: "https://raw.githubusercontent.com/lbormann/darts-wled/master/CHANGELOG.md",
+                    changelogUrl: "https://raw.githubusercontent.com/Peschi90/darts-wled/master/CHANGELOG.md",
                     name: "darts-wled",
-                    helpUrl: "https://github.com/lbormann/darts-wled",
+                    helpUrl: "https://github.com/Peschi90/darts-wled",
                     descriptionShort: "Controls WLED installations by autodarts-events",
                     configuration: new(
                         prefix: "-",
