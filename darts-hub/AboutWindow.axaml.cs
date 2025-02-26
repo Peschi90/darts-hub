@@ -58,6 +58,9 @@ namespace darts_hub
                 case "contact2":
                     VisitHelpPage("https://discordapp.com/users/wusaaa#0578");
                     break;
+                case "contact3":
+                    VisitHelpPage("https://discordapp.com/users/I3uLL3t#4446");
+                    break;
                 case "bug":
                     VisitHelpPage("https://github.com/lbormann/darts-hub/issues");
                     break;

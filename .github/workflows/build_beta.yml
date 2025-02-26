@@ -3,7 +3,7 @@ name: "Build"
 on:
   push:
     tags:
-    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+    - 'b*' # Push events to matching v*, i.e. v1.0, v20.15.10
     # branches:
     #     - main
 
@@ -274,7 +274,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           draft: false
-          prerelease: false
+          prerelease: true
           tag_name: ${{ github.ref }}
           name: Release ${{ github.ref }}
           generate_release_notes: true

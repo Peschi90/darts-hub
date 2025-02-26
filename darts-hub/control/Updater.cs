@@ -19,7 +19,7 @@ namespace darts_hub.control
         // ATTRIBUTES
 
         // Increase for new build ..
-        public static readonly string version = "v0.12.1";
+        public static readonly string version = "v0.1.1";
         
 
         public static event EventHandler<ReleaseEventArgs>? NoNewReleaseFound;
@@ -30,9 +30,9 @@ namespace darts_hub.control
         public static event EventHandler<DownloadProgressChangedEventArgs>? ReleaseDownloadProgressed;
 
         private static string latestRepoVersion = string.Empty;
-        private const string appSourceUrl = "https://github.com/lbormann/darts-hub/releases/download";
-        private const string appSourceUrlLatest = "https://api.github.com/repos/lbormann/darts-hub/releases/latest";
-        public static readonly string appSourceUrlChangelog = "https://raw.githubusercontent.com/lbormann/darts-hub/main/CHANGELOG.md";
+        private const string appSourceUrl = "https://github.com/Peschi90/darts-hub/releases/download";
+        private const string appSourceUrlLatest = "https://api.github.com/repos/Peschi90/darts-hub/releases/latest";
+        public static readonly string appSourceUrlChangelog = "https://raw.githubusercontent.com/Peschi90/darts-hub/develop_mp/CHANGELOG.md";
         private const string appDestination = "updates";
         private const string requestUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36";
         private const int requestTimeout = 4;

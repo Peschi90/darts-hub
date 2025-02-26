@@ -491,14 +491,14 @@ namespace darts_hub.control
 
             var dartsWledDownloadMap = new DownloadMap
             {
-                WindowsX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled.exe",
-                LinuxX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled",
-                LinuxArm64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-arm64",
+                WindowsX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled.exe",
+                LinuxX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled",
+                LinuxArm64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-arm64",
                 //LinuxArm = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-arm",
-                MacX64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-mac",
-                MacArm64 = "https://github.com/lbormann/darts-wled/releases/download/v***VERSION***/darts-wled-mac"
+                MacX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac",
+                MacArm64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac"
             };
-            dartsWledDownloadUrl = dartsWledDownloadMap.GetDownloadUrlByOs("1.5.0");
+            dartsWledDownloadUrl = dartsWledDownloadMap.GetDownloadUrlByOs("2.0.0.b4");
 
 
             var dartsPixelitDownloadMap = new DownloadMap
@@ -683,7 +683,8 @@ namespace darts_hub.control
                         new(name: "B", type: "string", required: false, isMulti : true, nameHuman: "-B / --busted_effects", section: "WLED"),
                         new(name: "PJ", type: "string", required: false, isMulti : true, nameHuman: "-PJ / --player_joined_effects", section: "WLED"),
                         new(name: "PL", type: "string", required: false, isMulti : true, nameHuman: "-PL / --player_left_effects", section: "WLED"),
-                        new(name: "DEB", type: "bool", required: false, nameHuman: "-DEB / --debug", section: "Service", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" })
+                        new(name: "DEB", type: "bool", required: false, nameHuman: "-DEB / --debug", section: "Service", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" }),
+                        new(name: "BSW", type: "bool", required: false, nameHuman: "-BSW / --board_stop_after_win", section: "Autodarts", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" })
 
                     };
                 for (int i = 0; i <= 180; i++)
@@ -702,9 +703,9 @@ namespace darts_hub.control
                 AppDownloadable dartsWled =
                 new(
                     downloadUrl: dartsWledDownloadUrl,
-                    changelogUrl: "https://raw.githubusercontent.com/lbormann/darts-wled/master/CHANGELOG.md",
+                    changelogUrl: "https://raw.githubusercontent.com/Peschi90/darts-wled/master/CHANGELOG.md",
                     name: "darts-wled",
-                    helpUrl: "https://github.com/lbormann/darts-wled",
+                    helpUrl: "https://github.com/Peschi90/darts-wled",
                     descriptionShort: "Controls WLED installations by autodarts-events",
                     configuration: new(
                         prefix: "-",
@@ -944,6 +945,21 @@ namespace darts_hub.control
                     if (dartsCallerIndex != -1)
                     {
                         AppsDownloadable.RemoveAt(dartsCallerIndex);
+                    }
+                }
+            }
+
+            var dartsWled = AppsDownloadable.Find(a => a.Name == "darts-wled");
+            if (dartsWled != null)
+            {
+                if (dartsWledDownloadUrl != null)
+                {
+                    dartsWled.DownloadUrl = dartsWledDownloadUrl;
+
+                    var boardStopAfterWin = dartsWled.Configuration.Arguments.Find(a => a.Name == "BSW");
+                    if (boardStopAfterWin == null)
+                    {
+                        dartsWled.Configuration.Arguments.Add(new(name: "BSW", type: "bool", required: false, nameHuman: "-BSW / --board_stop_after_win", section: "Autodarts", valueMapping: new Dictionary<string, string> { ["True"] = "1", ["False"] = "0" }));
                     }
                 }
             }
