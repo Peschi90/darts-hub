@@ -1,10 +1,16 @@
 # DARTS-HUB Fork by Peschi90
 [![Downloads](https://img.shields.io/github/downloads/Peschi90/darts-hub/total.svg)](https://github.com/Peschi90/darts-hub/releases/latest)
 
-This is a Fork by Peschi90 aka I3uLL3t. 
-unfortunetly Wusaaa has no time anymore to develop it anymore. The Project is to good to let it die. 
-I starded to Fork this hub and want to extend it to newer Versions and bigger funcionality!
+This version is a fork of Peschi90. 
+Unfortunately wusaaa has no more time to develop this project. Since this extension is way too good and big to just leave it alone, I decided to continue and extend it. 
 
+Unfortunately I was not able to reach Wusaaa and ask for permission directly, I refer to a statement he made in the Autodarts Discord that he would hand over the project to someone else. So I hope it's ok for him! Big thanks to him for starting this project, I couldn't have done it myself!
+
+The current status is: 
+-Darts-Caller is used from lbormann/wusaaa repo and has not been touched yet
+-Darts-Wled has been switched to my repo
+ -BSW Board Stop after Finisch parameter added and made configurable
+  - Standard Board Stop after win switched off. Can be switched on via WLED settings --BSW 0 or 1
 
 
 
