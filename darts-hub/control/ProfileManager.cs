@@ -467,14 +467,14 @@ namespace darts_hub.control
 
             var dartsCallerDownloadMap = new DownloadMap
             {
-                WindowsX64 = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller.exe",
-                LinuxX64 = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller",
-                LinuxArm64 = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller-arm64",
+                WindowsX64 = "https://github.com/Peschi90/darts-caller/releases/download/v***VERSION***/darts-caller.exe",
+                LinuxX64 = "https://github.com/Peschi90/darts-caller/releases/download/v***VERSION***/darts-caller",
+                LinuxArm64 = "https://github.com/Peschi90/darts-caller/releases/download/v***VERSION***/darts-caller-arm64",
                 //LinuxArm = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller-arm",
-                MacX64 = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller-mac",
-                MacArm64 = "https://github.com/lbormann/darts-caller/releases/download/v***VERSION***/darts-caller-mac"
+                MacX64 = "https://github.com/Peschi90/darts-caller/releases/download/v***VERSION***/darts-caller-mac",
+                MacArm64 = "https://github.com/Peschi90/darts-caller/releases/download/v***VERSION***/darts-caller-mac"
             };
-            dartsCallerDownloadUrl = dartsCallerDownloadMap.GetDownloadUrlByOs("2.14.0");
+            dartsCallerDownloadUrl = dartsCallerDownloadMap.GetDownloadUrlByOs("v0.0.0b6");
 
 
             var dartsExternDownloadMap = new DownloadMap
@@ -592,9 +592,9 @@ namespace darts_hub.control
                 AppDownloadable dartsCaller =
                     new(
                         downloadUrl: dartsCallerDownloadUrl,
-                        changelogUrl: "https://raw.githubusercontent.com/lbormann/darts-caller/master/CHANGELOG.md",
+                        changelogUrl: "https://raw.githubusercontent.com/Peschi90/darts-caller/master/CHANGELOG.md",
                         name: "darts-caller",
-                        helpUrl: "https://github.com/lbormann/darts-caller",
+                        helpUrl: "https://github.com/Peschi90/darts-caller",
                         descriptionShort: "Calls out thrown points",
                         configuration: new(
                             prefix: "-",
