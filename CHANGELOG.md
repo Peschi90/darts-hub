@@ -1,3 +1,6 @@
+## 0.1.8 by Peschi90
+- Darts Caller Version Update for single throw effect messages to WLED
+
 ## 0.1.5 by Peschi90
 - changed Darts-Caller to Peschi90 Fork
 
