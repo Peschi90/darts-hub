@@ -1,3 +1,6 @@
+## 0.1.9 by Peschi90
+- Darts Caller Version Update for single throw effect messages to WLED bugfix
+
 ## 0.1.8 by Peschi90
 - Darts Caller Version Update for single throw effect messages to WLED
 
