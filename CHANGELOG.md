@@ -1,3 +1,6 @@
+## 0.1.12 by Peschi90
+- WLED Version change to 0.1.0 first working release
+
 ## 0.1.11 by Peschi90
 - Darts Caller Version Update for single throw effect messages to WLED bugfix
 
