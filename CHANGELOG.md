@@ -1,3 +1,6 @@
+## 0.1.22 by Peschi90
+ - Version update for WLED 0.1.3
+
 ## 0.1.21 by Peschi90
  - Version update for WLED 0.1.2
 
