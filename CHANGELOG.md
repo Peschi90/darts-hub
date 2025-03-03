@@ -1,3 +1,6 @@
+## 0.1.21 by Peschi90
+ - Version update for WLED 0.1.2
+
 ## 0.1.20 by Peschi90
 - Update darts-WLED
   - implement argument for TO TakoutDetection effect
