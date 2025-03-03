@@ -1,3 +1,6 @@
+## 0.1.25 by Peschi90
+ - Version update for WLED 0.1.6
+
 ## 0.1.24 by Peschi90
  - Version update for WLED 0.1.5
  - Version update for Caller 0.0.1b3
