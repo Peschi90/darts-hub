@@ -1,3 +1,6 @@
+## 0.1.16 by Peschi90
+- Darts Caller update to V0.0.0b15
+
 ## 0.1.15 by Peschi90
 - Darts Caller update to V0.0.0b14
   - implementing Takout detections status
