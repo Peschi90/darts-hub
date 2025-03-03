@@ -498,7 +498,7 @@ namespace darts_hub.control
                 MacX64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac",
                 MacArm64 = "https://github.com/Peschi90/darts-wled/releases/download/v***VERSION***/darts-wled-mac"
             };
-            dartsWledDownloadUrl = dartsWledDownloadMap.GetDownloadUrlByOs("0.1.6");
+            dartsWledDownloadUrl = dartsWledDownloadMap.GetDownloadUrlByOs("0.1.7");
 
 
             var dartsPixelitDownloadMap = new DownloadMap
