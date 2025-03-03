@@ -1,3 +1,6 @@
+## 0.1.19 by Peschi90
+- Darts Caller update to V0.0.1b2
+
 ## 0.1.18 by Peschi90
 - Darts Caller update to V0.0.1b1
 
