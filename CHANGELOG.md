@@ -1,3 +1,7 @@
+## 0.1.20 by Peschi90
+- Update darts-WLED
+  - implement argument for TO TakoutDetection effect
+
 ## 0.1.19 by Peschi90
 - Darts Caller update to V0.0.1b2
 
