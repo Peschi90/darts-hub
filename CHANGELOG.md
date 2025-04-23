@@ -1,3 +1,9 @@
+## 0.1.29 by Peschi90
+ - Version update for WLED 0.1.9
+  - add Parameter for false Takout detection --TOF
+  - this WLED parameter can be set to change the wled color for
+    a takeout detection during throws in X01.
+
 ## 0.1.28 by Peschi90
  - Version update for Caller 0.1.0
 
